@@ -1,6 +1,6 @@
 import psycopg2
 
-conn = psycopg2.connect("postgresql://event_admin:2h6WBFyGVUv88qgJ@localhost/eventadmin")
+conn = psycopg2.connect("postgresql://event_admin:njit@localhost/eventadmin")
 cur = conn.cursor()
 
 while True:
